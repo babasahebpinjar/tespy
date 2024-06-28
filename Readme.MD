@@ -15,27 +15,24 @@
     PyGMO
     TESPy
 
-Installation
+# Installation (Clone the repository)
 
-Clone the repository:
  
-  git clone https://github.com/babasahebpinjar/steam-power-plant-optimization.git
+    git clone https://github.com/babasahebpinjar/steam-power-plant-optimization.git
+    cd steam-power-plant-optimization 
   
-  cd steam-power-plant-optimization
 
-Install dependencies:
-  pip install -r requirements.txt
+# Install dependencies:
+    pip install -r requirements.txt
 
-Usage
-Run the Streamlit app:
- 
-  streamlit run streamlit_app.py
+# Usage (Run the Streamlit app)   
+    streamlit run streamlit_app.py
 
-Adjust the sliders to set the number of individuals and generations for optimization.
+#  Adjust the sliders to set the number of individuals and generations for optimization.
 
-Click on "Run Optimization" to start the optimization process.
+# Click on "Run Optimization" to start the optimization process.
 
-Once complete, the optimized scatter plot will be displayed.
+# Once complete, the optimized scatter plot will be displayed.
 
 Contributing
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and create a pull request.
