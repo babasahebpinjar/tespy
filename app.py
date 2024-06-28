@@ -1,6 +1,4 @@
 import os
-from fastapi import FastAPI, Request
-from fastapi.responses import ORJSONResponse
 import streamlit as st
 
 
@@ -24,8 +22,6 @@ from tespy.networks import Network
 
 from tespy.tools.optimization import OptimizationProblem
 
-
-app = FastAPI(default_response_class=ORJSONResponse)
 
 class SamplePlant:
     """Class template for TESPy model usage in optimization module."""
