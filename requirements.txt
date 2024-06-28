@@ -1,1 +1,8 @@
+fastapi
+uvicorn
+orjson
 streamlit
+numpy
+pygmo
+tespy
+matplotlib
